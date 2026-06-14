@@ -25,10 +25,10 @@ npm install
 
 ✅ Como rodar os testes:
     Abrir Cypress com interface:
-        npx run cy:open
+        npm run cy:open
 
     Rodar todos os testes em modo headless:
-        npx run test
+        npm run test
 
 ✅ Estrutura de Testes:
 

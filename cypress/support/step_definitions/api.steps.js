@@ -17,5 +17,7 @@ Then('o status code da resposta deve ser 200', () => {
 });
 
 Then('o campo {string} da lista deve ser exibido no log', (campo) => {
-  cy.log('Campo name:', response.body.data.list.name);
+  const name = response.body.data.list.name;
+  cy.log('Campo name:', name);
+  expect(name).to.be.a('string').and.not.be.empty; // ← adicionar isso
 });
