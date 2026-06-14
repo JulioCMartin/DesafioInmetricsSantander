@@ -16,6 +16,7 @@ module.exports = defineConfig({
       return config;
     },
     specPattern: 'cypress/e2e/**/*.feature',
-    baseUrl: 'https://www.automationexercise.com'
+    baseUrl: 'https://www.automationexercise.com',
+    experimentalRunAllSpecs: true
   },
 });

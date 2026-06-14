@@ -12,5 +12,7 @@ When('Eu acesso o carrinho de compras', () => {
 });
 
 Then('Devo visualizar os produtos que adicionei', () => {
-  cy.get('#product-1').should('be.visible');
+  cy.get('.cart_info').should('be.visible');
+  cy.get('.btn.btn-default.check_out').click();
+  cy.get('#cart_items').should('be.visible');
 });
