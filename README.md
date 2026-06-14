@@ -19,8 +19,8 @@
 ## ✅ Como instalar o projeto:
 
 ```bash
-git clone https://github.com/JulioCMartin/DesafioImetricsSantander.git
-cd desafioImetricsSantander
+git clone https://github.com/JulioCMartin/DesafioInmetricsSantander.git
+cd desafioInmetricsSantander
 npm install
 
 ✅ Como rodar os testes:
