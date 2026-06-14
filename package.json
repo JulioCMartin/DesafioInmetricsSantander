@@ -1,5 +1,5 @@
 {
-  "name": "desafioimetricssantander",
+  "name": "desafioinmetricssantander",
   "version": "1.0.0",
   "description": "Desafio F1RTS - QA Cypress",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "Cypress": "npm:cypress@^14.5.4",
     "esbuild": "^0.25.5"
   },
   "devDependencies": {
@@ -17,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JulioCMartin/DesafioImetricsSantander.git"
+    "url": "git+https://github.com/JulioCMartin/DesafioInmetricsSantander.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JulioCMartin/DesafioImetricsSantander/issues"
+    "url": "https://github.com/JulioCMartin/DesafioInmetricsSantander/issues"
   },
-  "homepage": "https://github.com/JulioCMartin/DesafioImetricsSantander#readme"
+  "homepage": "https://github.com/JulioCMartin/DesafioInmetricsSantander#readme"
 }
